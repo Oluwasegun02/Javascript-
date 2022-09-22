@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university Wedsite Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" style="height: 50px;"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="AboutUs.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+   
+<!---- Course ------>
+
+<section class="course">
+    <h1> Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A distinctio optio sit eaque vitae ut rem ab. Voluptate animi fugit quasi in temporibus, ducimus dicta perferendis, dolores harum laborum porro.</p>
+      </div>
+      <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A distinctio optio sit eaque vitae ut rem ab. Voluptate animi fugit quasi in temporibus, ducimus dicta perferendis, dolores harum laborum porro.</p>
+      </div>
+      <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A distinctio optio sit eaque vitae ut rem ab. Voluptate animi fugit quasi in temporibus, ducimus dicta perferendis, dolores harum laborum porro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!------- facilities ------>
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/project9.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/project0.png">
+            <h3>Tasty and Healthy Food </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/project3.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam.</p>
+        </div>
+    </div>
+</section>
+
+<!------ Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi similique iste modi eum exercitationem maxime et ea magnam,<br> illo atque sed libero quam eaque mollitia. Dolores debitis fugiat itaque!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made With <i class="fa fa-heart-o"></i> by Forby Limited </p>
+</section>
+
+    <!-----Javascript for loggle Menu------   -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
